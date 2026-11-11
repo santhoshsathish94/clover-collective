@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "optional": [
+    "strategy"
+  ],
+  "required": [
+    "rule_id",
+    "version",
+    "category",
+    "trigger",
+    "target",
+    "independent_installations",
+    "heldout_accuracy",
+    "heldout_lift",
+    "regressions"
+  ],
+  "title": "CloverCoreKnowledgeRule",
+  "type": "object"
+}

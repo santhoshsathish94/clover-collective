@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "optional": [
+    "strategy"
+  ],
+  "required": [
+    "package_id",
+    "schema_version",
+    "installation_id",
+    "category",
+    "trigger",
+    "target",
+    "local_support_count",
+    "local_contra_count",
+    "local_precision",
+    "cross_context_generalised"
+  ],
+  "title": "CloverCollectiveLearningEvent",
+  "type": "object"
+}

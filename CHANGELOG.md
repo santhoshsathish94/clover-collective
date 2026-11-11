@@ -1,0 +1,2 @@
+# Clover Collective Core — Changelog
+
