@@ -1,0 +1,36 @@
+name: Collective learning
+
+# Checks contribution requests (public issues), keeps each GitHub account's patterns, and signs a new release of
+# the shared core when the promoted rules change. Issues that are not Clover requests are left alone.
+on:
+  issues:
+    types: [opened]
+  schedule:
+    - cron: "41 3 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: collective-learning
+  cancel-in-progress: false
+
+jobs:
+  process:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1  # v7.0.1
+      - name: Check requests and publish the signed shared core
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          CLOVER_CPSL_PRIVATE_KEY: ${{ secrets.CLOVER_CPSL_PRIVATE_KEY }}
+          CLOVER_COLLECTIVE_MIN_INSTALLATIONS: "3"
+          CLOVER_COLLECTIVE_MIN_ACCOUNT_DAYS: "30"
+          PYTHONDONTWRITEBYTECODE: "1"
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          python3 engine/collective_repo.py run --root .

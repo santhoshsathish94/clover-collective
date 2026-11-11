@@ -1,0 +1,94 @@
+{
+  "rules": [
+    {
+      "category": "problem-solving",
+      "heldout_accuracy": 1.0,
+      "heldout_lift": 1.0,
+      "independent_installations": 3,
+      "regressions": 0,
+      "rule_id": "core_6769bd58c5724351",
+      "strategy": "Collective problem-solving strategy (audit): inspect the target file/table with repo_read and run python_interpreter to verify row totals, invariants, and anomalies.",
+      "target": [
+        "files.list",
+        "files.read",
+        "python"
+      ],
+      "trigger": [
+        "tok=audit"
+      ],
+      "version": "1.0.327"
+    },
+    {
+      "category": "problem-solving",
+      "heldout_accuracy": 1.0,
+      "heldout_lift": 1.0,
+      "independent_installations": 3,
+      "regressions": 0,
+      "rule_id": "core_61cefdbc7bc5da48",
+      "strategy": "Collective problem-solving strategy (benchmark): execute controlled timing probes via run_shell and compute throughput/latency distributions with python_interpreter.",
+      "target": [
+        "python",
+        "shell"
+      ],
+      "trigger": [
+        "tok=benchmark"
+      ],
+      "version": "1.0.327"
+    },
+    {
+      "category": "problem-solving",
+      "heldout_accuracy": 1.0,
+      "heldout_lift": 1.0,
+      "independent_installations": 3,
+      "regressions": 0,
+      "rule_id": "core_65703b79999d3c6e",
+      "strategy": "Collective problem-solving strategy (corroborate): retrieve primary figures via web.search/web.page and cross-verify quantitative claims using python_interpreter before answering.",
+      "target": [
+        "python",
+        "web.page",
+        "web.search"
+      ],
+      "trigger": [
+        "tok=corroborate"
+      ],
+      "version": "1.0.327"
+    },
+    {
+      "category": "problem-solving",
+      "heldout_accuracy": 1.0,
+      "heldout_lift": 1.0,
+      "independent_installations": 3,
+      "regressions": 0,
+      "rule_id": "core_5ccadb6938fa0158",
+      "strategy": "Collective problem-solving strategy (forecast): gather current historical series via web.search and fit a quantitative projection in python_interpreter.",
+      "target": [
+        "python",
+        "web.page",
+        "web.search"
+      ],
+      "trigger": [
+        "tok=forecast"
+      ],
+      "version": "1.0.327"
+    },
+    {
+      "category": "problem-solving",
+      "heldout_accuracy": 1.0,
+      "heldout_lift": 1.0,
+      "independent_installations": 3,
+      "regressions": 0,
+      "rule_id": "core_18c6eb28f7aaa630",
+      "strategy": "Collective problem-solving strategy (reconcile): read the referenced ledgers/files via repo_read and reconcile line-by-line discrepancies in python_interpreter.",
+      "target": [
+        "files.list",
+        "files.read",
+        "python"
+      ],
+      "trigger": [
+        "tok=reconcile"
+      ],
+      "version": "1.0.327"
+    }
+  ],
+  "source": "Clover shared core release 1.0.327, published 2026-11-07T17:13:42Z by the earlier collective gateway on k3 (signed there with key dba3f7e2e969a26c57a24d50e2ecd654249b42e25eecc1f9140a514d7dcedb8a). Carried over by its owner on 2026-11-11 and re-signed by this repository. Each rule had 3 independent installations; the strategy texts below are kept as provenance only: releases use the canonical strategy text for the rule's tools."
+}
