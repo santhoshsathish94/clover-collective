@@ -1,8 +1,8 @@
 # Engine source
 
 These files are copied unchanged from the Clover framework repository
-(`Santhoshsathish94/clover-framework`, `clover-ai-system/studio/clover/`). They come from commit `20dd3e70` on
-branch `fix/studio-ui-504`, which is not merged yet. The git blob ids must match that commit:
+(`Santhoshsathish94/clover-framework`, `clover-ai-system/studio/clover/`). They come from Clover v5.0.5: tag `v5.0.5`,
+commit `f98f986a` on `main`. The git blob ids must match that commit:
 
 ```
 b1fef93aa49773dfbe3710c5c3339ff68680aaae  collective_repo.py
@@ -15,7 +15,7 @@ e5ccaf842104fb7d833ec69a2a0fa50c354247b1  core_registry.py
 f9802fcafb2b4139bb20404c10a63c929e19635e  clover_cycle.py
 ```
 
-To check them, run `git ls-tree HEAD engine/` here, and `git ls-tree 20dd3e70 clover-ai-system/studio/clover/` in the
+To check them, run `git ls-tree HEAD engine/` here, and `git ls-tree v5.0.5 clover-ai-system/studio/clover/` in the
 framework.
 
 The files use only the Python standard library. To update them, copy the new versions from the framework, then
