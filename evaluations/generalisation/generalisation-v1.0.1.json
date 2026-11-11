@@ -1,0 +1,32 @@
+[
+  {
+    "candidate_id": "agg_6769bd58c5724351",
+    "heldout_accuracy": 1.0,
+    "heldout_lift": 1.0,
+    "pass": true
+  },
+  {
+    "candidate_id": "agg_61cefdbc7bc5da48",
+    "heldout_accuracy": 1.0,
+    "heldout_lift": 1.0,
+    "pass": true
+  },
+  {
+    "candidate_id": "agg_65703b79999d3c6e",
+    "heldout_accuracy": 1.0,
+    "heldout_lift": 1.0,
+    "pass": true
+  },
+  {
+    "candidate_id": "agg_5ccadb6938fa0158",
+    "heldout_accuracy": 1.0,
+    "heldout_lift": 1.0,
+    "pass": true
+  },
+  {
+    "candidate_id": "agg_18c6eb28f7aaa630",
+    "heldout_accuracy": 1.0,
+    "heldout_lift": 1.0,
+    "pass": true
+  }
+]

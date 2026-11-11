@@ -1,0 +1,32 @@
+[
+  {
+    "candidate_id": "agg_6769bd58c5724351",
+    "pass": true,
+    "personal_hijacks": 0,
+    "regressions": 0
+  },
+  {
+    "candidate_id": "agg_61cefdbc7bc5da48",
+    "pass": true,
+    "personal_hijacks": 0,
+    "regressions": 0
+  },
+  {
+    "candidate_id": "agg_65703b79999d3c6e",
+    "pass": true,
+    "personal_hijacks": 0,
+    "regressions": 0
+  },
+  {
+    "candidate_id": "agg_5ccadb6938fa0158",
+    "pass": true,
+    "personal_hijacks": 0,
+    "regressions": 0
+  },
+  {
+    "candidate_id": "agg_18c6eb28f7aaa630",
+    "pass": true,
+    "personal_hijacks": 0,
+    "regressions": 0
+  }
+]

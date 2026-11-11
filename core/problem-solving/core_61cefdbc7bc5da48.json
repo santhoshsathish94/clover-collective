@@ -1,0 +1,17 @@
+{
+  "category": "problem-solving",
+  "heldout_accuracy": 1.0,
+  "heldout_lift": 1.0,
+  "independent_installations": 3,
+  "regressions": 0,
+  "rule_id": "core_61cefdbc7bc5da48",
+  "strategy": "",
+  "target": [
+    "python",
+    "shell"
+  ],
+  "trigger": [
+    "tok=benchmark"
+  ],
+  "version": "1.0.1"
+}

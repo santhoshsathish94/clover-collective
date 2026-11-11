@@ -1,0 +1,116 @@
+{
+  "files": {
+    "core/problem-solving/core_18c6eb28f7aaa630.json": "{\n  \"category\": \"problem-solving\",\n  \"heldout_accuracy\": 1.0,\n  \"heldout_lift\": 1.0,\n  \"independent_installations\": 3,\n  \"regressions\": 0,\n  \"rule_id\": \"core_18c6eb28f7aaa630\",\n  \"strategy\": \"Collective problem-solving strategy: first inspect the file, then run Python to compute and verify the result.\",\n  \"target\": [\n    \"files.list\",\n    \"files.read\",\n    \"python\"\n  ],\n  \"trigger\": [\n    \"tok=reconcile\"\n  ],\n  \"version\": \"1.0.1\"\n}",
+    "core/problem-solving/core_5ccadb6938fa0158.json": "{\n  \"category\": \"problem-solving\",\n  \"heldout_accuracy\": 1.0,\n  \"heldout_lift\": 1.0,\n  \"independent_installations\": 3,\n  \"regressions\": 0,\n  \"rule_id\": \"core_5ccadb6938fa0158\",\n  \"strategy\": \"Collective problem-solving strategy: first gather primary sources from the web, then verify the figures with Python.\",\n  \"target\": [\n    \"python\",\n    \"web.page\",\n    \"web.search\"\n  ],\n  \"trigger\": [\n    \"tok=forecast\"\n  ],\n  \"version\": \"1.0.1\"\n}",
+    "core/problem-solving/core_61cefdbc7bc5da48.json": "{\n  \"category\": \"problem-solving\",\n  \"heldout_accuracy\": 1.0,\n  \"heldout_lift\": 1.0,\n  \"independent_installations\": 3,\n  \"regressions\": 0,\n  \"rule_id\": \"core_61cefdbc7bc5da48\",\n  \"strategy\": \"\",\n  \"target\": [\n    \"python\",\n    \"shell\"\n  ],\n  \"trigger\": [\n    \"tok=benchmark\"\n  ],\n  \"version\": \"1.0.1\"\n}",
+    "core/problem-solving/core_65703b79999d3c6e.json": "{\n  \"category\": \"problem-solving\",\n  \"heldout_accuracy\": 1.0,\n  \"heldout_lift\": 1.0,\n  \"independent_installations\": 3,\n  \"regressions\": 0,\n  \"rule_id\": \"core_65703b79999d3c6e\",\n  \"strategy\": \"Collective problem-solving strategy: first gather primary sources from the web, then verify the figures with Python.\",\n  \"target\": [\n    \"python\",\n    \"web.page\",\n    \"web.search\"\n  ],\n  \"trigger\": [\n    \"tok=corroborate\"\n  ],\n  \"version\": \"1.0.1\"\n}",
+    "core/problem-solving/core_6769bd58c5724351.json": "{\n  \"category\": \"problem-solving\",\n  \"heldout_accuracy\": 1.0,\n  \"heldout_lift\": 1.0,\n  \"independent_installations\": 3,\n  \"regressions\": 0,\n  \"rule_id\": \"core_6769bd58c5724351\",\n  \"strategy\": \"Collective problem-solving strategy: first inspect the file, then run Python to compute and verify the result.\",\n  \"target\": [\n    \"files.list\",\n    \"files.read\",\n    \"python\"\n  ],\n  \"trigger\": [\n    \"tok=audit\"\n  ],\n  \"version\": \"1.0.1\"\n}"
+  },
+  "manifest": {
+    "file_hashes": {
+      "core/problem-solving/core_18c6eb28f7aaa630.json": "136cb0a86381c35b4f76c02da71235d27f877633ad187619be8f701421843abd",
+      "core/problem-solving/core_5ccadb6938fa0158.json": "a7569fd61ab25aadf4cef6266d1c5c57bd770b0c4fac76dcd541b8c11b8a2594",
+      "core/problem-solving/core_61cefdbc7bc5da48.json": "bb357c5fbeebe3d93efadf9fc4f41c753c661a8fa812b7d2859e278bf969973d",
+      "core/problem-solving/core_65703b79999d3c6e.json": "9e592117384da9d92cc1fb6c22e36bc9c5113222347dca7c174b37ca579b6ee6",
+      "core/problem-solving/core_6769bd58c5724351.json": "52a52130dfb7e77085cdc3feb3326a39b142e3d1005d96e13c64ea112aeaa228"
+    },
+    "note": "Scheduled check",
+    "public_key": "a4d9d040035a19a5f1214bd30881b40842d4b06d0990c1bfdd6252fd90280283",
+    "published_utc": "2026-11-11T00:25:02Z",
+    "rules": [
+      {
+        "category": "problem-solving",
+        "heldout_accuracy": 1.0,
+        "heldout_lift": 1.0,
+        "independent_installations": 3,
+        "regressions": 0,
+        "rule_id": "core_6769bd58c5724351",
+        "strategy": "Collective problem-solving strategy: first inspect the file, then run Python to compute and verify the result.",
+        "target": [
+          "files.list",
+          "files.read",
+          "python"
+        ],
+        "trigger": [
+          "tok=audit"
+        ],
+        "version": "1.0.1"
+      },
+      {
+        "category": "problem-solving",
+        "heldout_accuracy": 1.0,
+        "heldout_lift": 1.0,
+        "independent_installations": 3,
+        "regressions": 0,
+        "rule_id": "core_61cefdbc7bc5da48",
+        "strategy": "",
+        "target": [
+          "python",
+          "shell"
+        ],
+        "trigger": [
+          "tok=benchmark"
+        ],
+        "version": "1.0.1"
+      },
+      {
+        "category": "problem-solving",
+        "heldout_accuracy": 1.0,
+        "heldout_lift": 1.0,
+        "independent_installations": 3,
+        "regressions": 0,
+        "rule_id": "core_65703b79999d3c6e",
+        "strategy": "Collective problem-solving strategy: first gather primary sources from the web, then verify the figures with Python.",
+        "target": [
+          "python",
+          "web.page",
+          "web.search"
+        ],
+        "trigger": [
+          "tok=corroborate"
+        ],
+        "version": "1.0.1"
+      },
+      {
+        "category": "problem-solving",
+        "heldout_accuracy": 1.0,
+        "heldout_lift": 1.0,
+        "independent_installations": 3,
+        "regressions": 0,
+        "rule_id": "core_5ccadb6938fa0158",
+        "strategy": "Collective problem-solving strategy: first gather primary sources from the web, then verify the figures with Python.",
+        "target": [
+          "python",
+          "web.page",
+          "web.search"
+        ],
+        "trigger": [
+          "tok=forecast"
+        ],
+        "version": "1.0.1"
+      },
+      {
+        "category": "problem-solving",
+        "heldout_accuracy": 1.0,
+        "heldout_lift": 1.0,
+        "independent_installations": 3,
+        "regressions": 0,
+        "rule_id": "core_18c6eb28f7aaa630",
+        "strategy": "Collective problem-solving strategy: first inspect the file, then run Python to compute and verify the result.",
+        "target": [
+          "files.list",
+          "files.read",
+          "python"
+        ],
+        "trigger": [
+          "tok=reconcile"
+        ],
+        "version": "1.0.1"
+      }
+    ],
+    "rules_count": 5,
+    "signature": "189e0b4846ece2750d3408e1c8d59a851f8ab0b0d053ae351844e3653b938437531ce03e529891b6e4eee7fe584b9783c7ec9ec02a7c4ba4b6d23fd744399d0c",
+    "signature_alg": "Ed25519",
+    "version": "1.0.1"
+  }
+}

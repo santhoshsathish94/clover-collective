@@ -1,0 +1,18 @@
+{
+  "category": "problem-solving",
+  "heldout_accuracy": 1.0,
+  "heldout_lift": 1.0,
+  "independent_installations": 3,
+  "regressions": 0,
+  "rule_id": "core_6769bd58c5724351",
+  "strategy": "Collective problem-solving strategy: first inspect the file, then run Python to compute and verify the result.",
+  "target": [
+    "files.list",
+    "files.read",
+    "python"
+  ],
+  "trigger": [
+    "tok=audit"
+  ],
+  "version": "1.0.1"
+}

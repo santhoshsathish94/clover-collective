@@ -1,0 +1,192 @@
+{
+  "candidates": [
+    {
+      "candidate_id": "agg_6769bd58c5724351",
+      "category": "problem-solving",
+      "cross_user_agreement": 1.0,
+      "gates": {
+        "G1_quorum": true,
+        "G2_consistency": true,
+        "G3_generalisation": true,
+        "G4_cross_domain": true,
+        "G5_zero_regression": true
+      },
+      "independent_installations": 3,
+      "metrics": {
+        "baseline_b0_accuracy": 0.0,
+        "heldout_accuracy": 1.0,
+        "heldout_lift": 1.0,
+        "matched_domains": [],
+        "matched_heldout_probes": 0,
+        "personal_hijacks": 0,
+        "regressions": 0
+      },
+      "promoted": true,
+      "rejection_reasons": [],
+      "seed": true,
+      "status": "promoted",
+      "strategy": "Collective problem-solving strategy: first inspect the file, then run Python to compute and verify the result.",
+      "supporting_installations": [],
+      "target": [
+        "files.list",
+        "files.read",
+        "python"
+      ],
+      "total_submissions": 0,
+      "trigger": [
+        "tok=audit"
+      ]
+    },
+    {
+      "candidate_id": "agg_61cefdbc7bc5da48",
+      "category": "problem-solving",
+      "cross_user_agreement": 1.0,
+      "gates": {
+        "G1_quorum": true,
+        "G2_consistency": true,
+        "G3_generalisation": true,
+        "G4_cross_domain": true,
+        "G5_zero_regression": true
+      },
+      "independent_installations": 3,
+      "metrics": {
+        "baseline_b0_accuracy": 0.0,
+        "heldout_accuracy": 1.0,
+        "heldout_lift": 1.0,
+        "matched_domains": [],
+        "matched_heldout_probes": 0,
+        "personal_hijacks": 0,
+        "regressions": 0
+      },
+      "promoted": true,
+      "rejection_reasons": [],
+      "seed": true,
+      "status": "promoted",
+      "strategy": "",
+      "supporting_installations": [],
+      "target": [
+        "python",
+        "shell"
+      ],
+      "total_submissions": 0,
+      "trigger": [
+        "tok=benchmark"
+      ]
+    },
+    {
+      "candidate_id": "agg_65703b79999d3c6e",
+      "category": "problem-solving",
+      "cross_user_agreement": 1.0,
+      "gates": {
+        "G1_quorum": true,
+        "G2_consistency": true,
+        "G3_generalisation": true,
+        "G4_cross_domain": true,
+        "G5_zero_regression": true
+      },
+      "independent_installations": 3,
+      "metrics": {
+        "baseline_b0_accuracy": 0.0,
+        "heldout_accuracy": 1.0,
+        "heldout_lift": 1.0,
+        "matched_domains": [],
+        "matched_heldout_probes": 0,
+        "personal_hijacks": 0,
+        "regressions": 0
+      },
+      "promoted": true,
+      "rejection_reasons": [],
+      "seed": true,
+      "status": "promoted",
+      "strategy": "Collective problem-solving strategy: first gather primary sources from the web, then verify the figures with Python.",
+      "supporting_installations": [],
+      "target": [
+        "python",
+        "web.page",
+        "web.search"
+      ],
+      "total_submissions": 0,
+      "trigger": [
+        "tok=corroborate"
+      ]
+    },
+    {
+      "candidate_id": "agg_5ccadb6938fa0158",
+      "category": "problem-solving",
+      "cross_user_agreement": 1.0,
+      "gates": {
+        "G1_quorum": true,
+        "G2_consistency": true,
+        "G3_generalisation": true,
+        "G4_cross_domain": true,
+        "G5_zero_regression": true
+      },
+      "independent_installations": 3,
+      "metrics": {
+        "baseline_b0_accuracy": 0.0,
+        "heldout_accuracy": 1.0,
+        "heldout_lift": 1.0,
+        "matched_domains": [],
+        "matched_heldout_probes": 0,
+        "personal_hijacks": 0,
+        "regressions": 0
+      },
+      "promoted": true,
+      "rejection_reasons": [],
+      "seed": true,
+      "status": "promoted",
+      "strategy": "Collective problem-solving strategy: first gather primary sources from the web, then verify the figures with Python.",
+      "supporting_installations": [],
+      "target": [
+        "python",
+        "web.page",
+        "web.search"
+      ],
+      "total_submissions": 0,
+      "trigger": [
+        "tok=forecast"
+      ]
+    },
+    {
+      "candidate_id": "agg_18c6eb28f7aaa630",
+      "category": "problem-solving",
+      "cross_user_agreement": 1.0,
+      "gates": {
+        "G1_quorum": true,
+        "G2_consistency": true,
+        "G3_generalisation": true,
+        "G4_cross_domain": true,
+        "G5_zero_regression": true
+      },
+      "independent_installations": 3,
+      "metrics": {
+        "baseline_b0_accuracy": 0.0,
+        "heldout_accuracy": 1.0,
+        "heldout_lift": 1.0,
+        "matched_domains": [],
+        "matched_heldout_probes": 0,
+        "personal_hijacks": 0,
+        "regressions": 0
+      },
+      "promoted": true,
+      "rejection_reasons": [],
+      "seed": true,
+      "status": "promoted",
+      "strategy": "Collective problem-solving strategy: first inspect the file, then run Python to compute and verify the result.",
+      "supporting_installations": [],
+      "target": [
+        "files.list",
+        "files.read",
+        "python"
+      ],
+      "total_submissions": 0,
+      "trigger": [
+        "tok=reconcile"
+      ]
+    }
+  ],
+  "promoted_count": 5,
+  "rejected_count": 0,
+  "total_evaluated": 5,
+  "version": "1.0.1"
+}
